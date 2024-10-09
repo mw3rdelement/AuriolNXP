@@ -7,3 +7,4 @@
 Change SDLOG_PROFILE to 784 (high rate, RAW fifo hr gyro, RAW fifo hr accel).
  * Preparing the drone test stand for Auriol008
  
+ ![Aurioal attached to the test stand ](Content/Teststandfertig.jpg)
