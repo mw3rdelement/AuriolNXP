@@ -35,4 +35,8 @@ Iteration One
   * Increasing it to 50hz had no effect. reset to default 40hz 
 ![Pitch Angular Rate with 50hz filter](Content/PitchAngularRate_pitchrateI0.5gyro_cutoff50hz_20241010_101508.png)
 
-  Iteration three: 
+  Iteration three: Add notch Filter add 35Hz and 5Hz BW
+
+![No Notch Filter](Content/ActuatorControlsFFTNoNotch.png)
+![Notch Filter 35hz 5hz Bw](Content/ActuatorControNotch35hzBW5hz.png)
+
