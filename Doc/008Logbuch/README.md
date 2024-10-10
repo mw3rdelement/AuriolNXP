@@ -20,9 +20,9 @@ Change SDLOG_PROFILE to 784 (high rate, RAW fifo hr gyro, RAW fifo hr accel).
 
  Problem to solve:
     
-    1. Reduce Pitch and Roll Angular Rate oscillations
+Reduce Pitch and Roll Angular Rate oscillations
 
-    Iteration One
+Iteration One
   * lower mc_pitchrate_i and mc_rollrate_i from 1.0 and 0.8 to 0.5 and 0.5
   * write high rate logfile with filter settings imu_gyro_cutoff 35hz 40hz and 36hz
 ![Motor Outputs with 40hz filter](Content/Actuator_Controls_pitchrateI0.5gyro_cutoff40hz_20241010_101508.png)
