@@ -45,4 +45,8 @@ Iteration One
   * Not controllable on teststand.
   * reset mc_rollrate_d and mc_pitchrate_d to default
   * reset mc_yawrate_p and mc_yawrate_i to default  
-  now, yaw is way to sloppy :(
+  Yaw is sloopy and there are no better results in rollrate oscillations
+
+  Iteration five: Switch back to inital params and only set notch filter and reduce rollrate und pitchrate p
+  
+   
