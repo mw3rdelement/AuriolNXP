@@ -40,3 +40,8 @@ Iteration One
 ![No Notch Filter](Content/ActuatorControlsFFTNoNotch.png)
 ![Notch Filter 35hz 5hz Bw](Content/ActuatorControNotch35hzBW5hz.png)
 
+ Iteration four: Reduce MC_Rollrate_p and MC_Pitchrate_p to 0.180 and 0.20
+
+  * Not controllable on teststand.
+  * reset mc_rollrate_d and mc_pitchrate_d to default
+  * reset mc_yawrate_p and mc_yawrate_i to default  
