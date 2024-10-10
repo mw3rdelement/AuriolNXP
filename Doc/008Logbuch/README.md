@@ -45,3 +45,4 @@ Iteration One
   * Not controllable on teststand.
   * reset mc_rollrate_d and mc_pitchrate_d to default
   * reset mc_yawrate_p and mc_yawrate_i to default  
+  now, yaw is way to sloppy :(
