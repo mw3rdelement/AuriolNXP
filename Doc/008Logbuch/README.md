@@ -28,4 +28,11 @@ Change SDLOG_PROFILE to 784 (high rate, RAW fifo hr gyro, RAW fifo hr accel).
 ![Motor Outputs with 40hz filter](Content/Actuator_Controls_pitchrateI0.5gyro_cutoff40hz_20241010_101508.png)
 ![Pitch Angular Rate with 40hz filter](Content/PitchAngularRate_pitchrateI0.5gyro_cutoff40hz_20241010_101508.png)
   * 25ms transit time measured for one period. This results in an oscillation frequency of 40hz
-  * When measuring with an oscillation frequency of 36 Hz, the same result with the same amplitude. At 45hz the same oscillation frequency with low amplitude can be observed
+  * When measuring with an oscillation frequency of 36 Hz, the same result with the same amplitude.
+  * At 45hz the same oscillation frequency with low amplitude can be observed
+  
+  Iteration two: increase imu_guro_cutoff to 50hz
+  * Increasing it to 50hz had no effect. reset to default 40hz 
+![Pitch Angular Rate with 50hz filter](Content/PitchAngularRate_pitchrateI0.5gyro_cutoff50hz_20241010_101508.png)
+
+  Iteration three: 
