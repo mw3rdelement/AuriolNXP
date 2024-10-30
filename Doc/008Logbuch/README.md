@@ -48,5 +48,43 @@ Iteration One
   Yaw is sloopy and there are no better results in rollrate oscillations
 
   Iteration five: Switch back to inital params and only set notch filter and reduce rollrate und pitchrate p
-  
-   
+
+---
+2024.10.22
+
+  Pilot: Julian Franz
+  Airfield: Farmer Schliephake
+  Weather: Temperature 8°C. Wind: Moderate wind speed
+
+
+Parameter Changes based on rc1 parameters.
+ * mc_pitchrate_i lowered from 1.0 to 0.5
+ * mc_pitchrate_p lowered from 0.25 to 0.2
+ * mc_rollrate_i lowered from 0.9 to 0.5
+ * mc_rool_p lowered from 1.5 to 1.0
+
+Test flight carried out with a gentle stick shaker and a log file was written with it.
+Log file shared in Discord chat.
+
+---
+2024.10.29
+
+  Pilot: Michael Wolkstein
+  Airfield: Farmer Schliephake
+  Weather: Temperature 10°C. Wind: Light wind
+
+Parameter Changes based on rc1 parameters.
+ * mc_pitchrate_p lowered from 0.2 to 0.18
+
+Testflight 1:
+
+A pitch stick shaker can be triggered with these parameters.
+
+Parameter Changes based on rc1 parameters.
+ * mc_pitchrate_p lowered from 0.18 to 0.15
+ * mc_pitch_p lowered from 1.25 to 1.0
+
+Testflight:
+
+With this parameter, the pitch and roll stick shaker can no longer be triggered.
+
